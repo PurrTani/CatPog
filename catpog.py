@@ -30,5 +30,3 @@ image = Image.open(save_path)
 st.title('Cat Pog')
 
 st.image(image, caption='You tellin me a shrimp fried this rice?')
-
-,
