@@ -23,7 +23,7 @@ if uploaded_file is not None:
   save_path = os.path.join(upload_dir, filename)
 
 with open(save_path, "wb") as f:
-  f.write(uploaded_file.getbuffer()
+  f.write(uploaded_file.getbuffer())
 
 image = Image.open(save_path)
 
